@@ -18,3 +18,9 @@ ___
   * middle school
   * university
 [my school](jlu.md)
+
+'''javascript
+   function add(num1,num2){
+   return num1+num2;
+   }
+'''
