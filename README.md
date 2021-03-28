@@ -17,4 +17,4 @@ ___
   * primary school
   * middle school
   * university
-[my school](jlu.md"jlu")
+[my school](jlu.md)
