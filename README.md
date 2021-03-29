@@ -1,6 +1,6 @@
 <!-- headings -->
 ## Hello!
-#### welcome to ~~my home.~~
+#### welcome to my home.
 ![PHOTO](logo.jpg)
 ___
 my name: **li Chenyang**    
@@ -9,7 +9,7 @@ my number:21180309
 ___
 >Be a happy man!
 
-_INTURDUCE_MYSELF
+__INTURDUCE__ MYSELF
 
 * Age
 
@@ -26,3 +26,4 @@ _INTURDUCE_MYSELF
    return num1+num2;
    }
 ```
+~~THE END ~~
