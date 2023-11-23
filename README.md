@@ -1,5 +1,5 @@
 
-##基本结构
+## 基本结构
 fisco文件内为fisco bcos区块链底层部署相关代码，其中包含联盟链相关配置及节点信息和智能合约
 webase-deploy文件内为前端可视化区块链相关代码
 
@@ -21,18 +21,18 @@ webase-deploy文件内为前端可视化区块链相关代码
 
 ## 节点前置服务（WeBASE-Front）搭建
 
-###拷贝sdk证书文件（build_chain的时候生成的）
+### 拷贝sdk证书文件（build_chain的时候生成的）
 将节点所在目录/root/fisco/nodes/127.0.0.1/sdk下的ca.crt、node.crt和node.key文件拷贝到/root/webase-front/conf下
 
-###服务起停
+### 服务起停
 ```
 启动： bash start.sh
 停止： bash stop.sh
 检查： bash status.sh
 ```
 
-###修改配置，部署所有服务
+### 修改配置，部署所有服务
 	python3 deploy.py installAll
 
-###访问管理平台
+### 访问管理平台
 	http://{deployIP}:{webPort}
